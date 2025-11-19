@@ -1,14 +1,31 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+Carpetas de build intermedio de Unreal
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/*/Binaries/
+
+Proyectos de Visual Studio / Rider / etc
+.vscode/
+.vs/
 *.sln
+*.vcxproj
+*.vcxproj.filters
+*.VC.db
+*.VC.opendb
+
+Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+Archivos de usuario de Unreal (config locales)
+*.user
+*.userprefs
 *.suo
-*.xcodeproj
-*.xcworkspace
+
+Logs
+*.log
+
+Backups
+*_Backup/
+*.bak
